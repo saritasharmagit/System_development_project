@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+   <link rel="stylesheet" href="css/login.css" >
+</head>
+
+    <body>
+     
+        <form>
+            <h1> LOG IN </h1>
+            <input type="text" placeholder="User name" id="uid" class="form-control">
+            <input type="password" id="pword" placeholder="Password">
+            <input type="submit" onclick="check (this.form)" value="Submit">
+            <input type="button" value="Reset">
+            <div class="social">
+                <img src="svg/facebook.svg">
+                <img src="svg/linkedin.svg">
+                <img src="svg/twitter.svg">
+    
+            </div>
+        </form>
+
+       
+        <script language="javascript">
+            function check(form)
+            {
+                if(form.uid.value=="sarita" && form.pword.value==1234){
+                    window.open("index.html");
+                    
+                }else{
+                    alert("wrong login information,try again !");
+                }
+            }
+        </script>
+    </body>
+    </html>

@@ -1,0 +1,40 @@
+ /*register */
+  body{
+
+    background-image:url("../imagens/register.jpg") ;
+    background-size:contain;
+    background-repeat:no-repeat;
+    
+}
+.register{
+    overflow: hidden;
+   
+}
+.register h1{
+    text-align:justify;
+    padding: 90px;
+    font-size: 40px;
+    color:#ece6e3;
+    margin-top: 190px;
+    text-shadow: 4px 4px 4px #000;
+}
+.register form{
+    border: 1px solid #757474;
+    border-radius: 10px;
+   width: 450px;
+ margin-bottom: 2%;
+}
+.register input[type="text"]{
+    width: 92%;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #979494;
+    border-radius: 5px;
+}
+.register input[type="submit"]{
+padding: 5px 30px;
+margin: 10px;
+border: 1px solid #979494;
+border-radius: 5px;
+background-color: rgb(160, 187, 187);
+}
